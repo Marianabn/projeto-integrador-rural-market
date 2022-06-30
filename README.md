@@ -1,2 +1,2 @@
 # projeto-integrador-rural-market
-//plataforma de agronegócio usando tecnologia para dar mais agilidade aos micro, médio empresários.
+# plataforma digital de agronegócio visando agilizar a vida dos micro e médios empresários
