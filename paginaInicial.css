@@ -1,0 +1,481 @@
+header {
+
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    
+    background: #18B23E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+    
+    }
+   
+    footer {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    top: 850px;
+    background: #18B23E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    }
+    
+
+    
+    .cabecalho-menu{
+    display:flex;
+    gap:32px;
+    }
+    
+    .cabecalho-menu-item-bottom{
+    font-family:'Roboto', sans-serif;
+    font-family:'Roboto Serif', serif;
+    color:#FFF;
+    font-weight : 600 ;
+    font-size:18px;
+    height:48px;
+    display:block;
+    margin:0 auto;
+    
+    }
+    
+    .conteudo{
+    margin-bottom:48px;
+    border-top:0.4px solid #111;
+    }
+    
+    .conteudo-pricipal{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    }
+    
+    .conteudo-principal-escrito{
+    display:flex;
+    flex-direction:row-reverse;
+    gap:32px;
+    }
+    
+    .conteudo-principal-escrito-titulo{
+    font-family: Roboto;
+    font-weight:400;
+    font-size:64px;
+    color:#111;
+    }
+    
+    .conteudo-principal-imagem{
+    height:430px;
+    }
+    
+    .conteudo-secundario{
+    display:flex;
+    flex-direction:row;
+    align-content:center;
+    gap:24px;
+    margin-top:48px;
+    }
+    
+    .conteudo-secundario-titulo{
+    padding-top:48px;
+    font-weight: 400;
+    font-size:24px;
+    color:#111;
+    
+    }
+    
+    .conteudo-secundario-paragrafo{
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size:18px;
+    color:#111;
+    }
+    
+    .ruralmarket{
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 130px;
+    top: 16px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .logoheader {
+    position: absolute;
+    width: 108px;
+    height: 70px;
+    left: 0px;
+    top: 1px;
+    }
+    .facebook1 {
+    position: absolute;
+    width: 108px;
+    height: 70px;
+    left: 150px;
+    top: 80px;
+    }
+    .globo {
+    position: absolute;
+    width: 108px;
+    height: 70px;
+    left: 680px;
+    top: 20px;
+    }
+    .facebook2 {
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 20px;
+    top: 10px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .emailempresa{
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 480px;
+    top: 120px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    } 
+    .instagran1 {
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 1030px;
+    top: 10px;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .logoinstagran1 {
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 1270px;
+    top: 90px;
+    }
+    .logoinstagran2 {
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 1210px;
+    top: 80px;
+    }
+    .logoinstagran3 {
+    position: absolute;
+    width: 388px;
+    height: 70px;
+    left: 1230px;
+    top: 100px;
+    }
+    .logotipo123 {
+        position: absolute;
+width: 388px;
+height: 70px;
+left: 124px;
+top: 19px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+
+color: #FFFFFF;
+    }
+    .loginheader{
+        position: absolute;
+width: 450px;
+height: 100px;
+left: 850px;
+top: -15px;
+border-radius: 10px;
+    }
+    .linhahorizontal{
+        width: 280px;
+        height: 5px;
+        left: 1px;
+        background-color: #18B23E;
+        top: 180px;
+        position: absolute;
+    }
+    .linhacomprimento {
+        width: 5px;
+        height: 5px;
+        left: 1px;
+        background-color: #18B23E;
+        top: 200px;
+        position: absolute;
+        
+    }
+    .cadastro {
+        position: absolute;
+        width: 450px;
+        height: 100px;
+        left: 950px;
+        top: -15px;
+        border-radius: 10px;
+    }
+    .search {
+       position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 500px;
+        top: 150px;
+        border-color: #18B23E;
+    } 
+    .filtresuapesquisa{
+        position: absolute;
+        width: 300px;
+        height: 90px;
+        left: 45px;
+        top: 100px;
+    }
+    .promocao1 {
+        position: absolute;
+        width: 388px;
+        height: 70px;
+        left: 5px;
+        top: 260px;
+    }
+    .promocao2 {
+        position: absolute;
+        width: 388px;
+        height: 70px;
+        left: 5px;
+        top: 280px;
+    }
+    .promocao3 {
+        position: absolute;
+        width: 388px;
+        height: 70px;
+        left: 5px;
+        top: 300px;
+    }
+    .titulomenu{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 210px;
+    }
+    .titulopreco{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 100px;
+        top: 130px;
+    }
+    .tituloEstado{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 100px;
+        top: 300px;
+    }
+    .riodejaineiro{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 340px;
+    }
+    .espiritosanto{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 360px;
+    }
+    .saopaulo{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 380px;
+    }
+    .minasgerais{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 400px;
+    } 
+    .parana {
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 420px;  
+    }
+    .santacatarina{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 440px; 
+    }
+    .riograndedosul{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 460px; 
+    }
+    .distritofederal{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 480px; 
+    }
+    .matogrosso{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 500px; 
+    }
+   
+    .goias{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 520px; 
+    }
+    .maranhao{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 540px; 
+    }
+    .piaui{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 560px; 
+    }
+    .ceara{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 580px; 
+    }
+    .riograndedonorte{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 600px; 
+    }
+    .paraiba{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 620px; 
+    }
+    .pernambuco{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 640px; 
+    }
+    .alagoas{ position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 660px; 
+
+    }
+    .sergipe{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 680px; 
+    }
+    .acre{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 700px; 
+    }
+    .amapa{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 720px; 
+    }
+    .amazonas{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 740px; 
+    }
+    .para{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 760px; 
+    }
+    .rondonia{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 780px; 
+    }
+    .roraima{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 800px; 
+    }
+    .tocantins{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        left: 5px;
+        top: 820px; 
+    }   
